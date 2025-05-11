@@ -1,0 +1,11 @@
+{
+  "topicsLocked": true,
+  "interactiveLocked": true,
+  "hasAssessment": true,
+  "assessmentQuestions": 2,
+  "assessmentAttempts": 2,
+  "hasResources": true,
+  "knowledgeCheckAttempts": 3,
+  "randomizeQuestions": true,
+  "randomizeOptions": true
+}

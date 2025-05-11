@@ -1,0 +1,231 @@
+{
+  "title": "eLearning Course",
+  "description": "A comprehensive eLearning course with interactive templates.",
+  "topics": [
+    {
+      "id": "topic1",
+      "title": "Topic 1",
+      "duration": "30 minutes",
+      "image": "/assets/images/topic1.jpg",
+      "pages": [
+        {
+          "id": "page1",
+          "type": "static",
+          "content": {
+            "title": "Welcome to Topic 1",
+            "text": "This is a static page."
+          }
+        },
+        {
+          "id": "page2",
+          "type": "textImageLeft",
+          "content": {
+            "title": "Text with Image (Left)",
+            "text": "This page has text with an image on the left.",
+            "image": "/assets/images/image1.jpg"
+          }
+        },
+        {
+          "id": "page3",
+          "type": "textImageRight",
+          "content": {
+            "title": "Text with Image (Right)",
+            "text": "This page has text with an image on the right.",
+            "image": "/assets/images/image2.jpg"
+          }
+        },
+        {
+          "id": "page4",
+          "type": "media",
+          "content": {
+            "title": "Video Lesson",
+            "mediaUrl": "/assets/videos/sample.mp4",
+            "caption": "Watch this video."
+          }
+        },
+        {
+          "id": "page5",
+          "type": "tab",
+          "content": {
+            "tabs": [
+              { "title": "Tab 1", "content": "Content for Tab 1" },
+              { "title": "Tab 2", "content": "Content for Tab 2" }
+            ]
+          }
+        },
+        {
+          "id": "page6",
+          "type": "buttonPopup",
+          "content": {
+            "title": "Button Popup",
+            "buttons": [
+              { "label": "Button 1", "popupContent": "Popup content 1" },
+              { "label": "Button 2", "popupContent": "Popup content 2" }
+            ]
+          }
+        },
+        {
+          "id": "page7",
+          "type": "expando",
+          "content": {
+            "items": [
+              { "title": "Item 1", "content": "Expanded content 1" },
+              { "title": "Item 2", "content": "Expanded content 2" }
+            ]
+          }
+        },
+        {
+          "id": "page8",
+          "type": "hotspot",
+          "content": {
+            "image": "/assets/images/hotspot.jpg",
+            "hotspots": [
+              { "x": 100, "y": 100, "content": "Hotspot 1 info" },
+              { "x": 200, "y": 200, "content": "Hotspot 2 info" }
+            ]
+          }
+        },
+        {
+          "id": "page9",
+          "type": "flipCard",
+          "content": {
+            "cards": [
+              {
+                "front": "What is JavaScript?",
+                "back": "A programming language for web development."
+              },
+              {
+                "front": "What is HTML?",
+                "back": "A markup language for web structure."
+              }
+            ]
+          }
+        },
+        {
+          "id": "page10",
+          "type": "conversation",
+          "content": {
+            "dialogue": [
+              { "speaker": "User", "text": "Hello!" },
+              { "speaker": "Bot", "text": "Hi! How can I help?" }
+            ]
+          }
+        },
+        {
+          "id": "page11",
+          "type": "singleChoice",
+          "content": {
+            "question": "What is 2+2?",
+            "options": [
+              { "text": "3", "isCorrect": false },
+              { "text": "4", "isCorrect": true },
+              { "text": "5", "isCorrect": false }
+            ]
+          }
+        },
+        {
+          "id": "page12",
+          "type": "multipleChoice",
+          "content": {
+            "question": "Select all programming languages:",
+            "options": [
+              { "text": "JavaScript", "isCorrect": true },
+              { "text": "HTML", "isCorrect": false },
+              { "text": "Python", "isCorrect": true }
+            ]
+          }
+        },
+        {
+          "id": "page13",
+          "type": "fillInBlanks",
+          "content": {
+            "question": "Fill in the blank: JavaScript is a ___ language.",
+            "correctAnswers": ["programming"]
+          }
+        },
+        {
+          "id": "page14",
+          "type": "dropdown",
+          "content": {
+            "question": "Select the correct option:",
+            "options": ["Option 1", "Option 2", "Option 3"],
+            "correctAnswer": "Option 2"
+          }
+        },
+        {
+          "id": "page15",
+          "type": "dragDrop",
+          "content": {
+            "question": "Arrange in order:",
+            "items": [
+              { "id": "1", "content": "First" },
+              { "id": "2", "content": "Second" }
+            ],
+            "correctOrder": ["1", "2"]
+          }
+        },
+        {
+          "id": "page16",
+          "type": "scenarioBranching",
+          "content": {
+            "scenario": "You are in a meeting...",
+            "branches": [
+              {
+                "option": "Agree",
+                "next": "Positive outcome"
+              },
+              {
+                "option": "Disagree",
+                "next": "Negative outcome"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "assessment",
+      "title": "Assessment",
+      "duration": "15 minutes",
+      "image": "/assets/images/assessment.jpg",
+      "pages": [
+        {
+          "id": "page1",
+          "type": "assessment",
+          "content": {
+            "title": "Final Assessment",
+            "bannerImage": "/assets/images/assessment.jpg",
+            "questions": [
+              {
+                "question": "What is 3+3?",
+                "options": [
+                  { "text": "5", "isCorrect": false },
+                  { "text": "6", "isCorrect": true },
+                  { "text": "7", "isCorrect": false }
+                ]
+              },
+              {
+                "question": "Which is a programming language?",
+                "options": [
+                  { "text": "HTML", "isCorrect": false },
+                  { "text": "Python", "isCorrect": true },
+                  { "text": "CSS", "isCorrect": false }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "title": "Course Guide",
+      "url": "/assets/resources/guide.pdf"
+    },
+    {
+      "title": "Reference Document",
+      "url": "/assets/resources/reference.pdf"
+    }
+  ]
+}

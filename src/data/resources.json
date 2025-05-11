@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Course Guide",
+    "type": "pdf",
+    "url": "/assets/resources/guide.pdf"
+  },
+  {
+    "name": "Reference Material",
+    "type": "pdf",
+    "url": "/assets/resources/reference.pdf"
+  },
+  {
+    "name": "Intro Video",
+    "type": "video",
+    "url": "/assets/videos/sample.mp4"
+  },
+  {
+    "name": "External Resource",
+    "type": "link",
+    "url": "https://example.com"
+  }
+]
